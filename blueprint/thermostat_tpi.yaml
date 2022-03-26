@@ -31,7 +31,6 @@ blueprint:
       description: Sonde de mesure de la température extérieure (sensor)
       selector:
         entity:
-          domain: weather
           device_class: temperature
     entity_temp_int:
       name: Température intérieure
